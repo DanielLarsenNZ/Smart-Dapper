@@ -13,24 +13,24 @@ simplicity of Dapper and show how, when combined with Domain Driven Design, this
 * Today's presentation
 * Software design is a constant battle with complexity
 * About Dapper
-** 3 Helpers
-** How does it work?
-** Demo
+ * 3 Helpers
+ * How does it work?
+ * Demo
 * In the stack - Dapper at work
 * My stack
-** The magic of ORMs
-** The pain of ORMs
-** Case study - The YTD sales report
-*** Sales ERD
-*** Demo
+ * The magic of ORMs
+ * The pain of ORMs
+ * Case study - The YTD sales report
+  * Sales ERD
+  * Demo
 * Falling back in love with SQL again
 * Getting Dapper into the stack
-** CQRS
-** Poor man's CQRS
-** Bounded context
-** Anti-corruption layer
-** Any ADO provider
-** Demo
+ * CQRS
+ * Poor man's CQRS
+ * Bounded context
+ * Anti-corruption layer
+ * Any ADO provider
+ * Demo
 * Summary
 * Thank you
 * Sponsors
