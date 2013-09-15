@@ -54,3 +54,10 @@ simplicity of Dapper and show how, when combined with Domain Driven Design, this
 + http://merc.tv/img/fig/AdventureWorks2008.gif - ERD
 + https://gist.github.com/SamSaffron/893878 - Sam's original gist
 
+## History
+
+* 15-Sep-2013 - Presented at Microsoft Communities Code Camp 2013 (Auckland, NZ) - http://www.mscommunities.co.nz/CodeCamp.aspx
+
+
+## License
+http://opensource.org/licenses/MIT (see LICENSE.txt).
