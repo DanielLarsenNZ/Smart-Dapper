@@ -1,0 +1,6 @@
+# CodeCamp2013/HelloDapper
+*.user
+bin
+obj
+packages
+*.suo

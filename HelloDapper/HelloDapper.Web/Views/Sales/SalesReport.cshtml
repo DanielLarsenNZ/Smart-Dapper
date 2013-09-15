@@ -1,0 +1,63 @@
+﻿@model IEnumerable<HelloDapper.Sales.SalesReportDataPivoted>
+
+@{
+    ViewBag.Title = "Sales YTD";
+}
+
+<h2>AdventureWorks Sales for YTD @ViewBag.StartDate.AddYears(1).ToString("d-MMM-yyyy")</h2>
+
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+        border: solid 1px grey;
+    }
+    td {
+        border: solid 1px grey;
+    }
+    .money {
+        font-family: Consolas;
+        text-align: right;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Territory</th>
+            <th>Store</th>
+            <th>Jan</th>
+            <th>Feb</th>
+            <th>Mar</th>
+            <th>Apr</th>
+            <th>May</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Aug</th>
+            <th>Sep</th>
+            <th>Oct</th>
+            <th>Nov</th>
+            <th>Dec</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var row in Model)
+            {
+                <tr>
+                <td>@row.Territory</td>
+                <td>@row.StoreName</td>
+                <td class="money">@row.Jan.ToString("#,###,###")</td>
+                <td class="money">@row.Feb.ToString("#,###,###")</td>
+                <td class="money">@row.Mar.ToString("#,###,###")</td>
+                <td class="money">@row.Apr.ToString("#,###,###")</td>
+                <td class="money">@row.May.ToString("#,###,###")</td>
+                <td class="money">@row.Jun.ToString("#,###,###")</td>
+                <td class="money">@row.Jul.ToString("#,###,###")</td>
+                <td class="money">@row.Aug.ToString("#,###,###")</td>
+                <td class="money">@row.Sep.ToString("#,###,###")</td>
+                <td class="money">@row.Oct.ToString("#,###,###")</td>
+                <td class="money">@row.Nov.ToString("#,###,###")</td>
+                <td class="money">@row.Dec.ToString("#,###,###")</td>                    
+                </tr>
+            }
+    </tbody>
+</table>

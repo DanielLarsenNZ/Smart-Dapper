@@ -35,6 +35,11 @@ simplicity of Dapper and show how, when combined with Domain Driven Design, this
 * Thank you
 * Sponsors
 
+## Install and run Code Samples
+
+1. Download and install an AdventureWorks database from http://msftdbprodsamples.codeplex.com/releases/view/93587
+2. Modify the web.config file connection strings, and optionally the test project app.config file as well.
+3. Compile and F5 to run in the browser.
 
 ## References and links
 
